@@ -1,0 +1,416 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     19273,        407]
+NotebookOptionsPosition[     18044,        367]
+NotebookOutlinePosition[     18809,        392]
+CellTagsIndexPosition[     18645,        386]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"EntityValue", "[", 
+  RowBox[{
+  "\"\<Lattice\>\"", ",", "\"\<Dimension\>\"", ",", 
+   "\"\<EntityAssociation\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.642786592144419*^9, 3.6427867101732206`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"\[LeftAssociation]", 
+  RowBox[{
+   RowBox[{
+    TemplateBox[{"\"base-centered monoclinic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"BaseCenteredMonoclinic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"BaseCenteredMonoclinic\\\"]\"",
+      "\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"base orthorhombic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"BaseCenteredOrthorhombic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"BaseCenteredOrthorhombic\\\"]\"",
+      "\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"body-centered cubic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"BodyCenteredCubic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"BodyCenteredCubic\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"body-centered orthorhombic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"BodyCenteredOrthorhombic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"BodyCenteredOrthorhombic\\\"]\"",
+      "\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"centered tetragonal\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"CenteredTetragonal\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"CenteredTetragonal\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"Coxeter-Todd\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"CoxeterTodd\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"CoxeterTodd\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "12"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"face-centered cubic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"FaceCenteredCubic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"FaceCenteredCubic\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"face-centered orthorhombic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"FaceCenteredOrthorhombic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"FaceCenteredOrthorhombic\\\"]\"",
+      "\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"hexagonal close-packing\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"HexagonalClosePacking\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"HexagonalClosePacking\\\"]\"",
+      "\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"hexagonal lattice\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"HexagonalLattice\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"HexagonalLattice\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "2"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"Korkine-Zolotarev\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"KorkineZolotarev\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"KorkineZolotarev\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "9"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"Leech lattice\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"Leech\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"Leech\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "24"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple cubic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleCubic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleCubic\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple hexagonal\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleHexagonal\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleHexagonal\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple monoclinic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleMonoclinic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleMonoclinic\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple orthorhombic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleOrthorhombic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleOrthorhombic\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple tetragonal\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleTetragonal\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleTetragonal\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple triclinic\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleTriclinic\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleTriclinic\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"simple trigonal\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SimpleTrigonal\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SimpleTrigonal\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"square lattice\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"SquareLattice\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"SquareLattice\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "2"}], ",", 
+   RowBox[{
+    TemplateBox[{"\"tetrahedral packing\"",RowBox[{"Entity", "[", 
+        RowBox[{"\"Lattice\"", ",", "\"TetrahedralPacking\""}], "]"}],
+      "\"Entity[\\\"Lattice\\\", \\\"TetrahedralPacking\\\"]\"","\"lattice\""},
+     "Entity"], "\[Rule]", "3"}]}], "\[RightAssociation]"}]], "Output",
+ CellChangeTimes->{
+  3.6427866059087954`*^9, {3.6427866549857025`*^9, 3.6427866699071946`*^9}, 
+   3.6427867107962832`*^9}]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"IsingConfig", "[", 
+   RowBox[{"dimension_", ",", "size_"}], "]"}], ":=", 
+  RowBox[{
+   RowBox[{"Nest", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"Table", "[", 
+       RowBox[{"#", ",", "size"}], "]"}], "&"}], ",", 
+     RowBox[{"Hold", "[", 
+      RowBox[{
+       RowBox[{"2", "*", 
+        RowBox[{"RandomInteger", "[", "]"}]}], "-", "1"}], "]"}], ",", 
+     "dimension"}], "]"}], "//", "ReleaseHold"}]}]], "Input",
+ CellChangeTimes->{{3.642786588027007*^9, 3.642786588029008*^9}, {
+  3.642786784094612*^9, 3.6427867865508575`*^9}, {3.6427868221314154`*^9, 
+  3.6427868726354656`*^9}, {3.642787178169016*^9, 3.642787202359434*^9}, {
+  3.642787243497548*^9, 3.6427872709842963`*^9}, {3.642787347545952*^9, 
+  3.642787361290326*^9}}],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"IsingEnergy", "::", "badLat"}], "=", 
+   "\"\<Not a square lattice!\>\""}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"IsingEnergy", "[", 
+   RowBox[{"config_", ",", 
+    RowBox[{"OptionsPattern", "[", 
+     RowBox[{"{", 
+      RowBox[{"\"\<Parallize\>\"", "\[Rule]", "True"}], "}"}], "]"}]}], "]"}],
+   ":=", 
+  RowBox[{"Module", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"n", "=", 
+       RowBox[{"Length", "[", "config", "]"}]}], ",", "\[IndentingNewLine]", 
+      RowBox[{"d", "=", 
+       RowBox[{"Depth", "[", "config", "]"}]}]}], "\[IndentingNewLine]", 
+     "}"}], ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"If", "[", 
+      RowBox[{
+       RowBox[{"!", 
+        RowBox[{"SquareMatrixQ", "[", "config", "]"}]}], ",", " ", 
+       RowBox[{
+        RowBox[{"Message", "[", 
+         RowBox[{"IsingEnergy", "::", "badLat"}], "]"}], ";", 
+        RowBox[{"Return", "[", "$Failed", "]"}]}]}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"Nest", "[", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"Sum", "[", 
+         RowBox[{"#", ",", 
+          RowBox[{"{", "}"}]}], "]"}], "&"}], ","}], "\[IndentingNewLine]", 
+      "]"}]}]}]}]}]}], "Input",
+ CellChangeTimes->{{3.6427868766038623`*^9, 3.642786896119814*^9}, {
+  3.642787276450843*^9, 3.6427873325154486`*^9}, {3.64278737693089*^9, 
+  3.6427874255837545`*^9}, {3.6427877344856415`*^9, 3.6427877445726504`*^9}, {
+  3.6427877832545185`*^9, 3.64278793888608*^9}, {3.642787999125103*^9, 
+  3.642788119879177*^9}, {3.642788440219208*^9, 3.642788464831669*^9}, {
+  3.642788519325118*^9, 3.6427886390470886`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"IsingEnergy", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.642787955133704*^9, 3.642787974422633*^9}, {
+  3.6427880796451545`*^9, 3.6427880846376534`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Table"}]], "Input",
+ CellChangeTimes->{{3.642786807064909*^9, 3.6427868114183445`*^9}, {
+  3.642786859496152*^9, 3.642786862672469*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["\<\"\!\(\*RowBox[{\\\"Table\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", StyleBox[\\\"n\\\", \\\
+\"TI\\\"]}], \\\"]\\\"}]\) generates a list of \!\(\*StyleBox[\\\"n\\\", \
+\\\"TI\\\"]\) copies of \!\(\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\). \
+\\n\!\(\*RowBox[{\\\"Table\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \
+\\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"i\\\", \\\"TI\
+\\\"], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\) generates \
+a list of the values of \!\(\*StyleBox[\\\"expr\\\", \\\"TI\\\"]\) when \
+\!\(\*StyleBox[\\\"i\\\", \\\"TI\\\"]\) runs from 1 to \
+\!\(\*SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]\). \\n\!\(\*RowBox[{\\\"Table\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\) starts \
+with \!\(\*RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\"=\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]]}]\). \\n\!\(\*RowBox[{\\\"Table\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"di\\\", \
+\\\"TI\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\) uses steps \
+\!\(\*StyleBox[\\\"di\\\", \\\"TI\\\"]\). \\n\!\(\*RowBox[{\\\"Table\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\) \
+uses the successive values \!\(\*SubscriptBox[StyleBox[\\\"i\\\", \
+\\\"TI\\\"], StyleBox[\\\"1\\\", \\\"TR\\\"]]\), \!\(\*SubscriptBox[StyleBox[\
+\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]]\), \[Ellipsis].\\n\!\
+\(\*RowBox[{\\\"Table\\\", \\\"[\\\", RowBox[{StyleBox[\\\"expr\\\", \\\"TI\\\
+\"], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \
+\\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", \\\"TI\\\"]], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"j\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"j\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"j\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\) gives a nested list. The list \
+associated with \!\(\*StyleBox[\\\"i\\\", \\\"TI\\\"]\) is outermost.\"\>", 
+   "MSG"], "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:ref/Table"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.6427868632665286`*^9},
+ CellTags->"Info-52759670-7755-4fb1-83c2-9816ff220404"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"?", "Sum"}]], "Input",
+ CellChangeTimes->{{3.642788308407028*^9, 3.642788311162304*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox["\<\"\\!\\(\\*RowBox[{\\\"Sum\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", \
+\\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) evaluates the sum \
+\\!\\(\\*RowBox[{UnderoverscriptBox[\\\"\[Sum]\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\"=\\\", \\\"1\\\"}], \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", FontSlant \
+-> \\\"Italic\\\"]], LimitsPositioning -> True], StyleBox[\\\"f\\\", \\\"TI\\\
+\"]}]\\). \\n\\!\\(\\*RowBox[{\\\"Sum\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) starts \
+with \\!\\(\\*RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\"=\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]]}]\\). \\n\\!\\(\\*RowBox[{\\\"Sum\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]], \\\",\\\", StyleBox[\\\"di\\\", \
+\\\"TI\\\"]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) uses steps \
+\\!\\(\\*RowBox[{StyleBox[\\\"d\\\", \\\"TI\\\"], \\\"\[InvisibleSpace]\\\", \
+StyleBox[\\\"i\\\", \\\"TI\\\"]}]\\). \\n\\!\\(\\*RowBox[{\\\"Sum\\\", \
+\\\"[\\\", RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \
+\\\"TI\\\"], StyleBox[\\\"2\\\", \\\"TR\\\"]], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"}\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}]\\) \
+uses successive values \\!\\(\\*SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"1\\\", \\\"TR\\\"]]\\), \
+\\!\\(\\*SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"2\\\", \\\
+\"TR\\\"]]\\), \[Ellipsis].\\n\\!\\(\\*RowBox[{\\\"Sum\\\", \\\"[\\\", \
+RowBox[{StyleBox[\\\"f\\\", \\\"TI\\\"], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{StyleBox[\\\"i\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\
+\", RowBox[{StyleBox[\\\"j\\\", \\\"TI\\\"], \\\",\\\", \
+SubscriptBox[StyleBox[\\\"j\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", \
+\\\"TI\\\"]], \\\",\\\", SubscriptBox[StyleBox[\\\"j\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", \\\"TI\\\"]]}], \\\"}\\\"}], \\\",\\\", StyleBox[\\\"\
+\[Ellipsis]\\\", \\\"TR\\\"]}], \\\"]\\\"}]\\) evaluates the multiple sum \\!\
+\\(\\*RowBox[{UnderoverscriptBox[\\\"\[Sum]\\\", RowBox[{StyleBox[\\\"i\\\", \
+\\\"TI\\\"], \\\"=\\\", SubscriptBox[StyleBox[\\\"i\\\", \\\"TI\\\"], \
+StyleBox[\\\"min\\\", FontSlant -> \\\"Italic\\\"]]}], SubscriptBox[StyleBox[\
+\\\"i\\\", \\\"TI\\\"], StyleBox[\\\"max\\\", FontSlant -> \\\"Italic\\\"]], \
+LimitsPositioning -> True], RowBox[{UnderoverscriptBox[\\\"\[Sum]\\\", \
+RowBox[{StyleBox[\\\"j\\\", \\\"TI\\\"], \\\"=\\\", \
+SubscriptBox[StyleBox[\\\"j\\\", \\\"TI\\\"], StyleBox[\\\"min\\\", FontSlant \
+-> \\\"Italic\\\"]]}], SubscriptBox[StyleBox[\\\"j\\\", \\\"TI\\\"], \
+StyleBox[\\\"max\\\", FontSlant -> \\\"Italic\\\"]], LimitsPositioning -> \
+True], RowBox[{\\\"\[Ellipsis]\\\", StyleBox[\\\"f\\\", \\\"TI\\\"]}]}]}]\\). \
+\\n\\!\\(\\*RowBox[{\\\"Sum\\\", \\\"[\\\", RowBox[{StyleBox[\\\"f\\\", \
+\\\"TI\\\"], \\\",\\\", StyleBox[\\\"i\\\", \\\"TI\\\"]}], \\\"]\\\"}]\\) \
+gives the indefinite sum \\!\\(\\*RowBox[{UnderscriptBox[\\\"\[Sum]\\\", \
+StyleBox[\\\"i\\\", \\\"TI\\\"]], StyleBox[\\\"f\\\", \\\"TI\\\"]}]\\).\"\>", 
+   "MSG"], "\[NonBreakingSpace]", 
+  ButtonBox[
+   StyleBox["\[RightSkeleton]", "SR"],
+   Active->True,
+   BaseStyle->"Link",
+   ButtonData->"paclet:ref/Sum"]}]], "Print", "PrintUsage",
+ CellChangeTimes->{3.642788311473335*^9},
+ CellTags->"Info-ef1bd83b-6c62-497f-a990-f55ac974e665"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"CreateLattice", "["}]], "Input",
+ CellChangeTimes->{{3.642788747642947*^9, 3.6427887654167247`*^9}}]
+},
+WindowSize->{1920, 980},
+WindowMargins->{{-9, Automatic}, {Automatic, -9}},
+FrontEndVersion->"10.2 for Microsoft Windows (64-bit) (May 31, 2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "Info-52759670-7755-4fb1-83c2-9816ff220404"->{
+  Cell[9533, 225, 3682, 57, 146, "Print",
+   CellTags->"Info-52759670-7755-4fb1-83c2-9816ff220404"]},
+ "Info-ef1bd83b-6c62-497f-a990-f55ac974e665"->{
+  Cell[13367, 291, 4534, 69, 236, "Print",
+   CellTags->"Info-ef1bd83b-6c62-497f-a990-f55ac974e665"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"Info-52759670-7755-4fb1-83c2-9816ff220404", 18369, 377},
+ {"Info-ef1bd83b-6c62-497f-a990-f55ac974e665", 18519, 380}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 226, 5, 31, "Input"],
+Cell[809, 29, 5844, 115, 115, "Output"]
+}, Open  ]],
+Cell[6668, 147, 774, 19, 31, "Input"],
+Cell[7445, 168, 1714, 43, 192, "Input"],
+Cell[9162, 213, 178, 3, 31, "Input"],
+Cell[CellGroupData[{
+Cell[9365, 220, 165, 3, 31, "Input"],
+Cell[9533, 225, 3682, 57, 146, "Print",
+ CellTags->"Info-52759670-7755-4fb1-83c2-9816ff220404"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13252, 287, 112, 2, 31, "Input"],
+Cell[13367, 291, 4534, 69, 236, "Print",
+ CellTags->"Info-ef1bd83b-6c62-497f-a990-f55ac974e665"]
+}, Open  ]],
+Cell[17916, 363, 124, 2, 31, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)
